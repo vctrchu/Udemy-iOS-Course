@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FB3B488D202C17C0002B8B81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B488C202C17C0002B8B81 /* AppDelegate.swift */; };
-		FB3B488F202C17C0002B8B81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B488E202C17C0002B8B81 /* ViewController.swift */; };
+		FB3B488F202C17C0002B8B81 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B488E202C17C0002B8B81 /* MainVC.swift */; };
 		FB3B4892202C17C0002B8B81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3B4890202C17C0002B8B81 /* Main.storyboard */; };
 		FB3B4894202C17C0002B8B81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB3B4893202C17C0002B8B81 /* Assets.xcassets */; };
 		FB3B4897202C17C0002B8B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB3B4895202C17C0002B8B81 /* LaunchScreen.storyboard */; };
+		FB3B48A2202C1A65002B8B81 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B48A1202C1A65002B8B81 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB3B4889202C17C0002B8B81 /* Window-Shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Window-Shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3B488C202C17C0002B8B81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB3B488E202C17C0002B8B81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB3B488E202C17C0002B8B81 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		FB3B4891202C17C0002B8B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB3B4893202C17C0002B8B81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB3B4896202C17C0002B8B81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB3B4898202C17C0002B8B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB3B48A1202C1A65002B8B81 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		FB3B488B202C17C0002B8B81 /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				FB3B48A0202C18DC002B8B81 /* Model */,
+				FB3B489F202C18D4002B8B81 /* Views */,
+				FB3B489E202C18C6002B8B81 /* Controller */,
 				FB3B488C202C17C0002B8B81 /* AppDelegate.swift */,
-				FB3B488E202C17C0002B8B81 /* ViewController.swift */,
 				FB3B4890202C17C0002B8B81 /* Main.storyboard */,
 				FB3B4893202C17C0002B8B81 /* Assets.xcassets */,
 				FB3B4895202C17C0002B8B81 /* LaunchScreen.storyboard */,
 				FB3B4898202C17C0002B8B81 /* Info.plist */,
 			);
 			path = "Window-Shopper";
+			sourceTree = "<group>";
+		};
+		FB3B489E202C18C6002B8B81 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B488E202C17C0002B8B81 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FB3B489F202C18D4002B8B81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB3B48A1202C1A65002B8B81 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FB3B48A0202C18DC002B8B81 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +163,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB3B488F202C17C0002B8B81 /* ViewController.swift in Sources */,
+				FB3B48A2202C1A65002B8B81 /* CurrencyTxtField.swift in Sources */,
+				FB3B488F202C17C0002B8B81 /* MainVC.swift in Sources */,
 				FB3B488D202C17C0002B8B81 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
